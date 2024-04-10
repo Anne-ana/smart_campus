@@ -18,3 +18,159 @@
             <a href="#">去了解</a>
         </view>
     </view>
+</view>
+<!-- 导航栏 -->
+<view class="barlist">
+    <view>
+        <view class="yel"><image src="../../imgs/school.svg"></image></view>
+        <view>学校概况</view>
+    </view>
+    <view>
+        <view class="pul"><image src="../../imgs/score.svg"></image></view>
+        <view>成绩查询</view>
+    </view>
+    <view>
+        <view class="reed"><image src="../../imgs/audio.svg"></image></view>
+        <view>缴费入口</view>
+    </view>
+    <view>
+        <view class="gre"><image src="../../imgs/danger.svg"></image></view>
+        <view>学院预警</view>
+    </view>
+    <view>
+        <view class="blu"><image src="../../imgs/all.svg"></image></view>
+        <view>全部</view>
+    </view>
+</view>
+<!-- 代办事项和办事指南 -->
+<view class="tinglist">
+    <view>
+        <image src="../../imgs/man.png"></image>
+        <view class="text">
+            <view>待办事项</view>
+            <view>我的待办事项</view>
+        </view>
+    </view>
+    <view>
+        <image src="../../imgs/woman.png"></image>
+        <view class="foning">
+            <view>办事指南</view>
+            <view>办事指南汇总</view>
+        </view>
+    </view>
+</view>
+<!-- 系统时间 -->
+<view class="runtime">
+  <view>
+    <image src="/imgs/audio.svg" mode=""/>
+  </view>
+  <view>关于系统运行的时间</view>
+</view>
+
+<!-- 办事指南新体验 -->
+<view class="thingfeel">
+  <view>
+    <view>办事指南新体验</view>
+    <view>新增办事指南和消息栏目，办事更快捷</view>
+    <view>去了解</view>
+  </view>
+  <view>
+    <image src="/imgs/newfeel.png" mode=""/>
+  </view>
+</view>
+
+<!-- 推荐应用 -->
+<view class="app">
+<view>推荐应用</view>
+<view>根据您最近使用和办理的应用为您推荐</view>
+</view>
+<view class="study">
+<view>
+<view>
+<image src="/imgs/messageimgs/2.png" mode=""/>
+</view>
+<view>成绩查询</view>
+<view>查询当前历史成绩</view>
+<view>
+<image src="/imgs/eyes.svg" mode=""/>
+<view>200+</view>
+</view>
+<view>
+<image src="/imgs/add.svg" mode=""/>
+</view>
+</view>
+<view>
+<view>
+<image src="/imgs/messageimgs/3.png" mode=""/>
+</view>
+<view>图书借阅</view>
+<view>查阅图书借阅记录</view>
+<view>
+<image src="/imgs/eyes.svg" mode=""/>
+<view>100+</view>
+</view>
+<view>
+<image src="/imgs/add.svg" mode=""/>
+</view>
+</view>
+<view>
+<view>
+<image src="/imgs/messageimgs/4.png" mode=""/>
+</view>
+<view>网上查询</view>
+<view>自助网上缴费</view>
+<view>
+<image src="/imgs/eyes.svg" mode=""/>
+<view>150+</view>
+</view>
+<view>
+<image src="/imgs/add.svg" mode=""/>
+</view>
+</view>
+</view>
+<view class="notice">
+  <view>通知公告</view>
+  <view>通知公告</view>
+  <view>综合信息</view>
+  <view>学术动态</view>
+</view>
+<view class="notice1">
+ <view>
+   <view>
+     <view>
+     关于加强新生入学后校园安全管理规范的通知
+     </view>
+     <view>
+     校园新闻网
+     </view>
+   </view>
+   <view>
+     <view>
+     关于开展2023新生入学教育系列培训课程的指导意见
+     </view>
+     <view>
+     信息化管理中心
+     </view>
+   </view>
+   <view>
+   <view>
+    关于加强新生入学后校园安全管理条例
+   </view>
+   <view>
+    教务处
+   </view>
+   </view>
+</view>
+  <view>
+    <view>
+     <image src="/imgs/newOne.png" mode=""/>
+    </view>
+     <view>
+     <image src="/imgs/item2.png" mode=""/>
+     </view>
+     <view>
+     <image src="/imgs/item1.png" mode=""/>
+     </view>
+  </view>
+</view>
+
