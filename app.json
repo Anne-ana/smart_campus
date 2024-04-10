@@ -1,12 +1,53 @@
 {
   "pages": [
+    
+    "pages/myText/myText",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/find/find",
+    "pages/myapps/myapps",
+    "pages/my/my",
+    "pages/mess/mess",
+    "pages/text/text"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "Weixin",
     "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/myText/myText",
+        "text": "首页",
+        "iconPath": "/imgs/indexOne.png",
+        "selectedIconPath": "/imgs/indexOne.png"
+      },
+      {
+        "pagePath": "pages/myapps/myapps",
+        "text": "应用",
+        "iconPath": "/imgs/app.png",
+        "selectedIconPath": "/imgs/app.png"
+      },
+      {
+        "pagePath": "pages/mess/mess",
+        "text": "消息",
+        "iconPath": "/imgs/message.png",
+        "selectedIconPath": "/imgs/message.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "./imgs/findation.png",
+        "selectedIconPath": "./imgs/findation.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/imgs/my.png",
+        "selectedIconPath": "/imgs/my.png"
+      }
+    ]
   },
   "style": "v2",
   "componentFramework": "glass-easel",
