@@ -1,2 +1,20 @@
 <!--pages/myText/myText.wxml-->
-<text>pages/myText/myText.wxml</text>
+<!-- <text>pages/myText/myText.wxml</text> -->
+<!--pages/classtest/classtest.wxml-->
+<!-- <text>pages/classtest/classtest.wxml</text> -->
+<!-- <view class="f1">页面1</view> -->
+<!-- 顶部banner条 -->
+<view class="toping">
+    <view class="box">
+        <image src="/imgs/1.png"></image>
+    </view>
+    <view class="fonting">
+        <h2>智慧校园门户</h2>
+        <text>
+            学校概况 办事指南等功能
+            方便快捷 办事实时查看消息
+        </text>
+        <view class="buton">
+            <a href="#">去了解</a>
+        </view>
+    </view>
