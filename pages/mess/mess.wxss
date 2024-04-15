@@ -184,3 +184,12 @@ font-size: 30rpx;
 font-size: 21rpx;
 color:gray;
 }
+
+
+.three{
+  color: gray;
+  font-size: 30rpx;
+  width: 200rpx;
+  line-height: 100rpx;
+  margin-left: 50rpx;
+}
