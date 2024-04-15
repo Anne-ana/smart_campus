@@ -1,1 +1,317 @@
 /* pages/myapps/myapps.wxss */
+.ying{
+  width: 90%;
+  height: 100rpx;
+  display: flex;
+  margin: auto;
+}
+.kuang{
+  display: flex;
+  width: 800rpx;
+  position: relative;
+}
+.kuang>view:first-child{
+  font-size: 50rpx;
+  position: absolute;
+  font-weight: bold;
+}
+.text{
+  color: darkgrey;
+}
+.kk{
+  width: 400rpx;
+  height: 50rpx;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+  font-size: 20rpx;
+ border: 1rpx solid #f5f5f5;
+  text-align: center;
+  border-radius: 15rpx;
+  background-color: #ffffff;
+  margin-left: 130rpx;
+  display: flex;
+   position: relative;
+
+}
+.kk>image{
+position: absolute;
+width: 50rpx;
+height: 40rpx;
+line-height: 40rpx;
+left: 25rpx;
+}
+.kk>view{
+ position: absolute;
+width: 200rpx;
+font-size: 25rpx;
+left: 80rpx;
+}
+.ttu{
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+  font-size: 20rpx;
+ /* border: 1rpx solid #f5f5f5; */
+  text-align: center;
+  border-radius: 15rpx;
+
+  margin-left: 30rpx;
+  display: flex;
+   position: relative;
+}
+.ttu1>image{
+  position: absolute;
+  width: 50rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  left: 25rpx;
+  display: flex;
+  }
+  .ttu2>image{
+    position: absolute;
+    width: 50rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    left: 90rpx; 
+  }
+
+  .top {
+    width: 334px;
+    height: 85px;
+    overflow: hidden;
+    color: white;
+    display: flex;
+  }
+  
+  .top view {
+    display: flex;
+    width: 145px;
+    height: 85px;
+  }
+  .top .top0v{
+    margin-left: 10px;
+  }
+  .top .top0v2{
+    margin-left: 20px;
+  }
+  .top view view image {
+    width: 162px;
+    height: 85px;
+  }
+  .top view .top1v image {
+    margin-left: -140px;
+    margin-top: 10px;
+    width: 80px;
+    height: 145px;
+  }
+  .top view .top1v  .appboy{
+    height: 70px;
+    width: 70px;
+  }
+  
+  .top .top2v {
+    margin-left: -60px;
+    margin-top: 25px;
+    font-size: 12px;
+  }
+  
+  .top .top2v .toptxt2 {
+    width: 140px;
+    margin-top: 15px;
+    margin-left: -145px;
+    font-size: 8px;
+  }
+      /* 推荐 */
+.tuijian1{
+  width: 90%;
+  margin: auto;
+  margin-top:40rpx ;
+  font-size:40rpx ;
+  font-weight: 900;
+}
+.tuijian2{
+  width: 90%;
+  margin: auto;
+  margin-top: 20rpx;
+  font-size: 32rpx;
+  color:#828282 ;
+}
+/*圆  */
+.yuan{
+  width: 90%;
+  margin: auto;
+  height: 400rpx;
+  /* background-color:purple; */
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+
+}
+.yuan>view{
+  width: 25%;
+margin-top: 70rpx;
+/* background-color: blue; */
+height: 350rpx;
+
+}
+.yuan>view>view:first-child{
+  margin: auto;
+  height: 90rpx;
+  width: 100rpx;
+  /* background-color:red; */
+  position: relative;
+  border-radius: 50%;
+}
+.yuan>view>view:last-child{
+  margin: auto;
+  height: 90rpx;
+  width: 100rpx;
+  /* background-color:palegreen; */
+  position: relative;
+  border-radius: 50%;
+}
+.greens{
+  background: linear-gradient(to right,#27e697f4,#12b992)
+}
+.oranges{
+  background: linear-gradient(to right,#fcb629,#fe8f11)
+  }
+  .blues{
+    background: linear-gradient(to right,#1aadef,#339ae1)
+    }
+    .reds{
+      background: linear-gradient(to right,#d77479,#bf362b)
+      }
+.yuan>view>view:first-child>image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.yuan>view>view:last-child>image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.yuanzi1{
+  margin-top: 20rpx;
+  line-height: 45rpx;
+  height: 150rpx;
+  font-size: 19rpx;
+  color: #a9a9a9;
+  text-align: center;
+  /* background-color: orange; */
+}
+.yuanzi1>view:first-child{
+color: black;
+font-size: 30rpx;
+}
+
+/* 测 */
+.eye{
+  width: 100rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 20rpx;
+ border: 1rpx solid #f5f5f5;
+  text-align: center;
+  border-radius: 35%;
+  background-color: #f3f3f3;
+  margin-left: 25rpx;
+  display: flex;
+   /* background-color: #d7d7d7; */
+   position: relative;
+}
+.eye>image{
+position: absolute;
+width: 100rpx;
+height: 30rpx;
+line-height: 30rpx;
+right: 25rpx;
+}
+.eye>view{
+  position: absolute;
+  width: 100rpx;
+height: 50rpx;
+font-size: 20rpx;
+left: 15rpx;
+}
+/* 最新上线 */
+.gao{
+  width: 90%;
+  margin: auto;
+  height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.ones{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  display: flex;
+ 
+}
+.ones>view:first-child{
+  font-weight: 900;
+  font-size: 40rpx;
+  line-height: 40rpx;
+  margin-right:25rpx ;
+}
+.ones>view:last-child{
+font-size: 32rpx;
+margin-left: 30rpx;
+
+}
+.twos{
+  margin-right: 25rpx;
+}
+/* 最新上线 */
+.zui{
+  width: 90%;
+  margin: auto;
+
+}
+/* 小程序 */
+.barlist{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.barlist>view>view:first-child{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+
+.barlist>view>view:first-child>image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.barlist>view>view:last-child{
+font-size: 28rpx;
+text-align: center;
+}
