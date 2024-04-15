@@ -1,1 +1,186 @@
 /* pages/mess/mess.wxss */
+.ying{
+  width: 90%;
+  height: 100rpx;
+  display: flex;
+  margin: auto;
+}
+.kuang{
+  display: flex;
+  width: 800rpx;
+  position: relative;
+}
+.kuang>view:first-child{
+  font-size: 50rpx;
+  position: absolute;
+  font-weight: bold;
+}
+.text{
+  color: darkgrey;
+}
+.kk{
+  width: 400rpx;
+  height: 50rpx;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+  font-size: 20rpx;
+ border: 1rpx solid #f5f5f5;
+  text-align: center;
+  border-radius: 15rpx;
+  background-color: #ffffff;
+  margin-left: 130rpx;
+  display: flex;
+   position: relative;
+
+}
+.kk>image{
+position: absolute;
+width: 50rpx;
+height: 40rpx;
+line-height: 40rpx;
+left: 25rpx;
+}
+.kk>view{
+ position: absolute;
+width: 200rpx;
+font-size: 25rpx;
+left: 80rpx;
+}
+.ttu{
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+  font-size: 20rpx;
+ /* border: 1rpx solid #f5f5f5; */
+  text-align: center;
+  border-radius: 15rpx;
+
+  margin-left: 30rpx;
+  display: flex;
+   position: relative;
+}
+.ttu1>image{
+  position: absolute;
+  width: 50rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  left: 25rpx;
+  display: flex;
+  }
+  .ttu2>image{
+    position: absolute;
+    width: 50rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    left: 90rpx; 
+}
+
+ /*圆  */
+ .yuan{
+  width: 90%;
+  margin: auto;
+  height: 200rpx;
+  /* background-color:purple; */
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+
+}
+.yuan>view{
+  width: 25%;
+margin-top: 70rpx;
+/* background-color: blue; */
+height: 350rpx;
+
+}
+.yuan>view>view:first-child{
+  margin: auto;
+  height: 90rpx;
+  width: 100rpx;
+  /* background-color:red; */
+  position: relative;
+  border-radius: 50%;
+}
+.yuan>view>view:last-child{
+  margin: auto;
+  height: 90rpx;
+  width: 100rpx;
+  /* background-color:palegreen; */
+  position: relative;
+  border-radius: 50%;
+}
+.red{
+  background: linear-gradient(to right,#27e697f4,#12b992)
+}
+.blue{
+  background: linear-gradient(to right,#fcb629,#fe8f11)
+  }
+  .yellow{
+    background: linear-gradient(to right,#1aadef,#339ae1)
+    }
+    .pur{
+      background: linear-gradient(to right,#d77479,#bf362b)
+      }
+      .green{
+        background: linear-gradient(to right,#d77479,#bf362b)
+        }
+.yuan>view>view:first-child>image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.yuan>view>view:last-child>image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.yuanzi1{
+  margin-top: 20rpx;
+  line-height: 45rpx;
+  height: 150rpx;
+  font-size: 19rpx;
+  color: #a9a9a9;
+  text-align: center;
+  /* background-color: orange; */
+}
+.yuanzi1>view:first-child{
+color: black;
+font-size: 30rpx;
+}
+/* 图+字 */
+.one{
+  width: 90%;
+  margin: auto;
+  margin-top: 30rpx;
+}
+
+.two{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.two>view>image{
+  width: 80rpx;
+  height: 80rpx;
+  /* background-color: red; */
+}
+.zi{
+  font-size: 35rpx;
+  margin-left: 50rpx;
+  width: 700rpx;
+}
+.zi>view:last-child{
+font-size: 21rpx;
+color:gray;
+}
