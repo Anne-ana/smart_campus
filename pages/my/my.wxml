@@ -1,2 +1,194 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<!-- <text>pages/my/my.wxml</text> -->
+
+<!-- 顶部 -->
+<view class="topt">
+  <view class="topt1v">
+    <view>
+      <image src="../../imgs/myimgs/set.png"/>
+    </view>
+    <view class="my">
+      我的
+    </view>
+    <view>
+      <image src="../../imgs/myimgs/info.png"/>
+    </view>
+  </view>
+  <view class="topt2v">
+    <view class="user">
+      宋歌
+      <view>
+      信息化管理中心  
+      </view>
+    </view>
+    <view>
+      <image src="../../imgs/myimgs/avater.png"/>
+    </view>
+  </view>
+</view>
+<!-- 头部 -->
+<view class="top">
+  <view class="top1">
+    <view class="top0v">
+      <image src="../../imgs/bgright.svg" />
+    </view>
+    <view class="top1v">
+      <image src="../../imgs/appgirl.png" />
+    </view>
+    <view class="top2v">
+      <view class="toptxt1">
+        待办事项
+      </view>
+      <view class="toptxt2">
+        我收藏的应用
+      </view>
+    </view>
+  </view>
+  <view class="top1">
+    <view class="top0v2">
+      <image src="../../imgs/bgleft.svg" />
+    </view>
+    <view class="top1v">
+      <image src="../../imgs/appboy.png" class="appboy"/>
+    </view>
+    <view class="top2v">
+      <view class="toptxt1">
+        待办事项
+      </view>
+      <view class="toptxt2">
+        办事指南总汇
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 推荐应用 -->
+<view class="tui">
+  推荐应用
+</view>
+<view class="di">
+  <view class="bottom">
+    <view class="di1v">
+      <image src="../../imgs/book.svg" />
+    </view>
+    <view class="txt">
+      教职工请假申请
+      <view class="text">
+        工作部门:系统维护 请假申请人:xxx
+      </view>
+    </view>
+    <view class="tian">
+      昨天
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="di1v" id="di2v">
+      <image src="../../imgs/messageimgs/4.png" />
+    </view>
+    <view class="txt">
+      教职工请假申请
+      <view class="text">
+        工作部门:系统维护 请假申请人:xxx
+      </view>
+    </view>
+    <view class="tian">
+      昨天
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="di1v" id="di3v">
+      <image src="../../imgs/messageimgs/5.png" />
+    </view>
+    <view class="txt">
+      教职工请假申请
+      <view class="text">
+        工作部门:系统维护 请假申请人:xxx
+      </view>
+    </view>
+    <view class="tian">
+      昨天
+    </view>
+  </view>
+</view>
+<!-- 我的收藏 -->
+<view class="myw">
+  我的收藏
+</view>
+<!-- 功能 -->
+<view class="gn">
+  <view>
+    <image src="../../imgs/appimgs/school.png"/>
+    学校概况
+  </view>
+  <view>
+    <image src="../../imgs/appimgs/map.png"/>
+    学校地图
+  </view>
+  <view>
+    <image src="../../imgs/appimgs/money.png"/>
+    我的消费
+  </view>
+  <view>
+    <image src="../../imgs/appimgs/email.png"/>
+    电子邮箱
+  </view>
+</view>
+<view class="gn">
+  <view>
+    <image src="../../imgs/appimgs/libray.png"/>
+    图书借阅
+  </view>
+  <view>
+    <image src="../../imgs/appimgs/jiangbei.png"/>
+    获奖成果
+  </view>
+  <view>
+    <image src="../../imgs/appimgs/red.png"/>
+    我的党建
+  </view>
+  <view>
+    <image src="../../imgs/appimgs/shenpi.png"/>
+    网上审批
+  </view>
+</view>
+<!-- 我的信息 -->
+<view class="myw">
+  我的信息
+</view>
+<!-- 功能 -->
+<view class="gn">
+  <view>
+    <image src="/imgs/appimgs/school.png"/>
+    教务系统
+  </view>
+  <view>
+    <image src="/imgs/appimgs/money.png"/>
+    学费缴纳
+  </view>
+  <view>
+    <image src="/imgs/appimgs/map.png"/>
+    星标课程
+  </view>
+  <view>
+    <image src="/imgs/appimgs/email.png"/>
+    学生科研
+  </view>
+</view>
+<view class="gn">
+  <view>
+    <image src="/imgs/appimgs/libray.png"/>
+    在线选课
+  </view>
+  <view>
+    <image src="/imgs/appimgs/jiangbei.png"/>
+    专业设置
+  </view>
+  <view>
+    <image src="/imgs/appimgs/red.png"/>
+    学霸名单
+  </view>
+  <view>
+    <image src="/imgs/appimgs/shenpi.png"/>
+    学生信息
+  </view>
+</view>
