@@ -1,1 +1,103 @@
 /* pages/my/my.wxss */
+
+.topt {
+  height: 140px;
+  background: linear-gradient(180deg, rgba(58, 209, 174, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.topt .topt1v {
+  display: flex;
+  margin-left: 10px;
+}
+
+.topt .topt1v .my {
+  margin-top: 20px;
+  width: 255px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.topt .topt1v image {
+  margin-top: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.topt .topt2v {
+  margin-top: 40px;
+  display: flex;
+}
+
+.topt .topt2v .user {
+  line-height: 28px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10px;
+  width: 250px;
+}
+
+.topt .topt2v .user view {
+  color: rgb(121, 121, 121);
+  font-size: 12px;
+}
+
+.topt .topt2v image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* 头部 */
+.top {
+  margin-top: 20px;
+  width: 334px;
+  height: 85px;
+  overflow: hidden;
+  color: white;
+  display: flex;
+}
+
+.top view {
+  display: flex;
+  width: 145px;
+  height: 85px;
+}
+
+.top .top0v {
+  margin-left: 10px;
+}
+
+.top .top0v2 {
+  margin-left: 20px;
+}
+
+.top view view image {
+  width: 162px;
+  height: 85px;
+}
+
+.top view .top1v image {
+  margin-left: -140px;
+  margin-top: 10px;
+  width: 80px;
+  height: 145px;
+}
+
+.top view .top1v .appboy {
+  height: 70px;
+  width: 70px;
+}
+
+.top .top2v {
+  margin-left: -60px;
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+.top .top2v .toptxt2 {
+  width: 140px;
+  margin-top: 15px;
+  margin-left: -145px;
+  font-size: 8px;
+}
