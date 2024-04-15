@@ -54,3 +54,43 @@
     </view>
   </view>
   </view>
+
+    <!-- 四个图+字 -->
+    <view class="one">
+    <view class="two">
+      <view><image src="../../imgs/messageimgs/9.png"></image></view>
+      <view class="zi">
+        <view>教职工请假申请</view>
+        <view>工作部门：系统维护申请人:xxx</view>
+      </view>
+        <view class="three">昨天</view>
+    </view>  
+    <!-- 二-->
+    <view class="two">
+      <view><image src="../../imgs/messageimgs/7.png"></image></view>
+      <view class="zi">
+        <view>补课申请</view>
+        <view>任课教师:系统管理员</view>
+      </view>
+        <view class="three">昨天</view>
+    </view>   
+    <!-- 三 -->
+    <view class="two">
+      <view><image src="../../imgs/messageimgs/8.png"></image></view>
+      <view class="zi">
+        <view>教职工请假申请</view>
+        <view>工作部门：系统维护申请人:xxx</view>
+      </view>
+        <view class="three">昨天</view>
+    </view>   
+    <!-- 四 -->
+    <view class="two">
+      <view><image src="../../imgs/messageimgs/9.png"></image></view>
+      <view class="zi">
+        <view>教职工请假申请</view>
+        <view>工作部门：系统维护申请人:xxx</view>
+      </view>
+        <view class="three">昨天</view>
+    </view>  
+
+  </view>
