@@ -1,2 +1,56 @@
 <!--pages/mess/mess.wxml-->
-<text>pages/mess/mess.wxml</text>
+<!-- <text>pages/mess/mess.wxml</text> -->
+<!--pages/myapps/myapps.wxml-->
+<!-- <text>pages/myapps/myapps.wxml</text> -->
+
+<!-- 搜索栏 -->
+<view class="ying">
+  <view class="kuang">
+    <view>消息</view>
+    <view class="kk"><image src="../../imgs/search.png"></image>
+    <view class="text">搜索应用 消息新闻</view>
+    </view>
+    <view class="ttu">
+      <view class="ttu1"><image src="../../imgs/scode.png"></image>  </view>
+      <view class="ttu2"><image src="../../imgs/mess.png"></image></view>
+  </view>
+  </view>
+</view>
+
+<!-- top -->
+<view class="yuan">
+  <view>
+    <view class="red"><image src="../../imgs/messageimgs/1.png"></image></view>
+      <view class="yuanzi1">
+        <view>待办</view>
+    </view>
+  </view>
+  <!-- 第二 -->
+  <view>
+    <view class="blue"><image src="../../imgs/messageimgs/2.png"></image></view>
+      <view class="yuanzi1">
+        <view>待阅</view>
+    </view>
+  </view>
+  <!-- 三 -->
+  <view>
+    <view class="yellow"><image src="../../imgs/messageimgs/3.png"></image></view>
+      <view class="yuanzi1">
+        <view>已办</view>
+    </view>
+  </view>
+  <!-- 四 -->
+  <view>
+    <view class="pur"><image src="../../imgs/messageimgs/4.png"></image></view>
+      <view class="yuanzi1">
+        <view>已阅</view>
+    </view>
+  </view>
+<!--五  -->
+<view>
+    <view class="green"><image src="../../imgs/messageimgs/5.png"></image></view>
+      <view class="yuanzi1">
+        <view>系统</view>
+    </view>
+  </view>
+  </view>
