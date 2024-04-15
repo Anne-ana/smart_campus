@@ -1,2 +1,202 @@
 <!--pages/myapps/myapps.wxml-->
-<text>pages/myapps/myapps.wxml</text>
+<!-- <text>pages/myapps/myapps.wxml</text> -->
+
+<!-- 搜素栏 -->
+<view class="ying">
+  <view class="kuang">
+    <view>应用</view>
+    <view class="kk"><image src="../../imgs/search.png"></image>
+    <view class="text">搜索应用 消息新闻</view>
+    </view>
+    <view class="ttu">
+      <view class="ttu1"><image src="../../imgs/scode.png"></image>  </view>
+      <view class="ttu2"><image src="../../imgs/mess.png"></image></view>
+  </view>
+  </view>
+</view>
+
+
+<view class="top">
+  <view class="top1">
+    <view class="top0v">
+      <image src="../../imgs/bgright.svg" />
+    </view>
+    <view class="top1v">
+      <image src="../../imgs/appgirl.png" />
+    </view>
+    <view class="top2v">
+      <view class="toptxt1">
+        待办事项
+      </view>
+      <view class="toptxt2">
+        我收藏的应用
+      </view>
+    </view>
+  </view>
+
+  <view class="top1">
+    <view class="top0v2">
+      <image src="../../imgs/bgleft.svg" />
+    </view>
+    <view class="top1v">
+      <image src="../../imgs/appboy.png" class="appboy"/>
+    </view>
+    <view class="top2v">
+      <view class="toptxt1">
+        待办事项
+      </view>
+      <view class="toptxt2">
+        办事指南总汇
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<!-- 推荐应用 -->
+<!-- 推荐应用 -->
+<view class="tuijian1">推荐应用</view>
+<view class="tuijian2">根据您最近浏览和办理应用为您推荐</view>
+<!--四个圆  -->
+<view class="yuan">
+  <view>
+    <view class="greens"><image src="../../imgs/score.svg"></image></view>
+      <view class="yuanzi1">
+        <view>成绩查询</view>
+        <view>查询当前及历史成绩</view>
+        <view class="eye"> <image src="../../imgs/eyes.svg"></image>
+        <view>200+</view>
+      </view>
+    </view>
+    <view><image src="../../imgs/add.svg"></image></view>
+  </view>
+  <!-- 第二 -->
+  <view>
+    <view class="oranges"><image src="../../imgs/books.svg"></image></view>
+      <view class="yuanzi1">
+        <view>图书借阅</view>
+        <view>查询图书借阅记录</view>
+        <view class="eye"> <image src="../../imgs/eyes.svg"></image>
+        <view>100+</view>
+      </view>
+    </view>
+    <view><image src="../../imgs/add.svg"></image></view>
+  </view>
+  <!-- 三 -->
+  <view>
+    <view class="blues"><image src="../../imgs/order.svg"></image></view>
+      <view class="yuanzi1">
+        <view>网上查询</view>
+        <view>自助网上缴费</view>
+        <view class="eye"> <image src="../../imgs/eyes.svg"></image>
+        <view>150+</view>
+      </view>
+    </view>
+    <view><image src="../../imgs/add.svg"></image></view>
+  </view>
+  <view>
+    <view class="reds"><image src="../../imgs/danger.svg"></image></view>
+      <view class="yuanzi1">
+        <view>学院预警</view>
+        <view>查看学院预警信息</view>
+        <view class="eye"> <image src="../../imgs/eyes.svg"></image>
+        <view>100+</view>
+      </view>
+    </view>
+    <view><image src="../../imgs/add.svg"></image></view>
+  </view>
+</view>
+<!-- 最新上线 -->
+<view class="gao">
+    <view class="ones">
+      <view>最新上线</view>
+        <view class="twos">电子商务</view>
+        <view>教学服务</view>
+        <view>科研服务</view>
+  </view>
+</view>
+<!-- 最新上线小程序 -->
+<view class="zui">最新上线</view>
+<!-- 小程序 -->
+<view class="barlist">
+  <view>
+    <view >
+      <image src="/imgs/appimgs/school.png" mode="img"></image>
+    </view>
+    <view>学校概况</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/appimgs/map.png"></image>
+    </view>
+  <view>获奖成果</view>
+  </view>
+  <view>
+    <view>
+      <image src="/imgs/appimgs/money.png"></image>
+    </view>
+    <view>我的消费</view>
+  </view>
+  <view>
+    <view>
+      <image src="/imgs/appimgs/email.png"></image>
+    </view>
+    <view>电子邮件</view>
+  </view>
+</view>
+<!-- 小程序下一行 -->
+<view class="barlist">
+  <view>
+    <view >
+      <image src="/imgs/appimgs/libray.png" mode="img"></image>
+    </view>
+    <view>图书借阅</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/appimgs/jiangbei.png"></image>
+    </view>
+  <view>获奖成果</view>
+  </view>
+  <view>
+    <view class="red">
+      <image src="/imgs/appimgs/red.png"></image>
+    </view>
+    <view>我的党建</view>
+  </view>
+  <view>
+    <view>
+      <image src="/imgs/appimgs/shenpi.png"></image>
+    </view>
+    <view>网上审批</view>
+  </view>
+</view>
+<!-- 电子教务 -->
+<view class="zui">电子教务</view>
+<!-- 小程序 -->
+<view class="barlist">
+  <view>
+    <view >
+      <image src="/imgs/appimgs/libray.png" mode="img"></image>
+    </view>
+    <!-- <view>图书借阅</view> -->
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/appimgs/jiangbei.png"></image>
+    </view>
+  <!-- <view>获奖成果</view> -->
+  </view>
+  <view>
+    <view>
+      <image src="/imgs/appimgs/red.png"></image>
+    </view>
+    <!-- <view>我的党建</view> -->
+  </view>
+  <view>
+    <view>
+      <image src="/imgs/appimgs/shenpi.png"></image>
+    </view>
+    <!-- <view>网上审批</view> -->
+  </view>
+</view>
