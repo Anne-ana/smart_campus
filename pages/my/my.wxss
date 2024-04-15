@@ -101,3 +101,76 @@
   margin-left: -145px;
   font-size: 8px;
 }
+
+/* 推荐应用 */
+.tui {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.bottom {
+  display: flex;
+  font-size: 13px;
+}
+
+.bottom view {
+  margin: 6px;
+}
+
+.bottom .txt {
+  width: 200px;
+}
+
+.bottom view image {
+  width: 20px;
+  height: 20px;
+  margin-top: 11px;
+}
+
+.bottom view .text {
+  color: rgba(154, 154, 154, 1);
+  margin-left: -1px;
+  font-size: 11px;
+}
+
+.bottom .tian {
+  float: right;
+  color: rgba(154, 154, 154, 1);
+  font-size: 11px;
+}
+
+.bottom .di1v {
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  background-color: rgba(255, 191, 107, 1);
+  border-radius: 50%;
+}
+.bottom #di2v{
+  background-color: rgba(136,103,245,1);
+}
+.bottom #di3v{
+  background-color: rgba(58,209,174,1);
+}
+/* 我的收藏 */
+.myw{
+  margin: 10px;
+  font-size: 14px;
+}
+/* 功能 */
+.gn{
+  margin-left: -2px;
+  display: flex;
+  width: 312px;
+}
+.gn view{
+  width: 48px;
+  height:50px;
+  text-align: center;
+  font-size: 12px;
+  margin: 15px;
+}
+.gn view image{
+  height: 40px;
+  width: 40px;
+}
