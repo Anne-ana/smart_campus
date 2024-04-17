@@ -1,2 +1,65 @@
-<!--pages/find/find.wxml-->
-<text>pages/find/find.wxml</text>
+<!--pages/found/found.wxml-->
+<!-- <text>pages/found/found.wxml</text> -->
+
+<!-- 搜索栏 -->
+<view class="ying">
+  <view class="kuang">
+    <view>发现</view>
+    <view class="kk"><image src="../../imgs/search.png"></image>
+    <view class="text">搜索应用 消息新闻</view>
+    </view>
+    <view class="ttu">
+      <view class="ttu1"><image src="../../imgs/scode.png"></image>  </view>
+      <view class="ttu2"><image src="../../imgs/mess.png"></image></view>
+  </view>
+  </view>
+</view>
+
+<!-- 发现 -->
+<view class="topimg">
+  <image src="../../imgs/findationimgs/top.png" />
+  <!--相对路径-->
+  <view class="toptitie">
+    <view>发现新鲜事</view>
+    <view>校内概况 办事指南</view>
+    <view>随时随地查看</view>
+  </view>
+</view>
+<!-- 通知公告 -->
+<view class="gao">
+    <view class="ones">
+      <view>通知公告</view>
+        <view class="twos">学校新闻</view>
+        <view>综合信息</view>
+        <view>学术动态</view>
+  </view>
+</view>
+<!-- 关于新生 -->
+<view class="about">
+  <view class="new">
+  <view>关于加强新生入学后通知校园管理规范的通知</view>
+  <view>校园新闻网</view>
+  </view>
+  <!-- 图 -->
+  <view>
+    <image src="../../imgs/item1.png"></image>
+  </view>
+  <!-- 二 -->
+  <view class="new">
+  <view>关于开展2023新生入学教育系列培训课程的指导意见</view>
+  <view>信息化管理中心</view>
+  </view>
+  <view>
+    <image src="../../imgs/item2.png"/>
+  </view>
+  <!-- 三 -->
+  <view class="new">
+  <view>关于加强新生入学后校园安全管理条例实行的通知</view>
+  <view>教务处</view>
+  </view>
+  <view>
+    <image src="../../imgs/item1.png"></image>
+  </view>
+</view>
+
+
