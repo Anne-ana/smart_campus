@@ -1,1 +1,164 @@
-/* pages/find/find.wxss */
+/* pages/found/found.wxss */
+/* pages/mess/mess.wxss */
+.ying{
+  width: 90%;
+  height: 100rpx;
+  display: flex;
+  margin: auto;
+}
+.kuang{
+  display: flex;
+  width: 800rpx;
+  position: relative;
+}
+.kuang>view:first-child{
+  font-size: 50rpx;
+  position: absolute;
+  font-weight: bold;
+}
+.text{
+  color: darkgrey;
+}
+.kk{
+  width: 400rpx;
+  height: 50rpx;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+  font-size: 20rpx;
+ border: 1rpx solid #f5f5f5;
+  text-align: center;
+  border-radius: 15rpx;
+  background-color: #ffffff;
+  margin-left: 130rpx;
+  display: flex;
+   position: relative;
+
+}
+.kk>image{
+position: absolute;
+width: 50rpx;
+height: 40rpx;
+line-height: 40rpx;
+left: 25rpx;
+}
+.kk>view{
+ position: absolute;
+width: 200rpx;
+font-size: 25rpx;
+left: 80rpx;
+}
+.ttu{
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+  font-size: 20rpx;
+ /* border: 1rpx solid #f5f5f5; */
+  text-align: center;
+  border-radius: 15rpx;
+
+  margin-left: 30rpx;
+  display: flex;
+   position: relative;
+}
+.ttu1>image{
+  position: absolute;
+  width: 50rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  left: 25rpx;
+  display: flex;
+  }
+  .ttu2>image{
+    position: absolute;
+    width: 50rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    left: 90rpx; 
+}
+/* 新鲜 */
+.topimg{
+  text-align: center;
+ position: relative;
+ 
+}
+.topimg>image{
+  width: 90%;
+  height: 270rpx;
+  border-radius:  20rpx; 
+  /* margin-top: 10rpx; */
+}
+.toptitie{
+  color:white;
+  text-align: left;
+  position: absolute;
+  /* font-size: 30rpx; */
+  top:40rpx;
+  left:80rpx;
+}
+.toptitie>view{
+  font-size: 28rpx;
+  line-height: 50rpx;
+}
+.toptitie>view:first-child{
+  font-size: 35rpx;
+  font-weight: 900;
+}
+/* 通知公告 */
+.gao{
+width: 90%;
+margin: auto;
+height: 80rpx;
+display: flex;
+justify-content: space-between;
+}
+.ones{
+font-size: 30rpx;
+margin-top: 20rpx;
+display: flex;
+
+}
+.ones>view:first-child{
+font-weight: 900;
+font-size: 40rpx;
+line-height: 40rpx;
+margin-right:25rpx ;
+}
+.ones>view:last-child{
+font-size: 32rpx;
+margin-left: 30rpx;
+font-weight: 900;
+}
+.twos{
+margin-right: 25rpx;
+}
+/* 关于新生 */
+.about{
+width: 90%;
+margin: auto;
+justify-content: space-between;
+background-color: white;
+margin-top: 20rpx;
+position: relative;
+height: 500rpx;
+/* background-color:red; */
+}
+.about>view>image{
+width: 150rpx;
+height: 150rpx;
+margin-left: 550rpx;
+margin-top: 30rpx;
+}
+.new{
+position: absolute;
+width: 80%;
+}
+.new>view:first-child{
+font-size: 32rpx;
+font-weight: 900;
+}
+.new>view:last-child{
+font-size: 28rpx;
+color: #9e9e9e;
+margin-top: 10rpx;
+}
