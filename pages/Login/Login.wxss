@@ -1,0 +1,77 @@
+/* pages/Login/Login.wxss */
+.scroll-y{
+  height: 88vh;
+}
+/* 顶部 */
+.top{
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.top>view>image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.top>view:last-child{
+  position: absolute;
+  top:0;
+  right: 0;
+  font-size: 35rpx;
+}
+.title{
+  width: 90%;
+  margin: auto;
+  margin-top: 50rpx;
+  font-size: 50rpx;
+  font-weight: 600;
+}
+/* 登录界面 */
+.log{
+  width: 90%;
+  margin: auto;
+  margin-top: 100rpx;
+}
+.log>view{
+  font-size: 30rpx;
+  color:#BFBFBF;
+  border-bottom: 1rpx solid #BFBFBF;
+  padding-bottom: 30rpx;
+  margin-bottom: 40rpx;
+}
+.log>view:last-child{
+  border:0;
+  color:black;
+  font-size: 25rpx;
+}
+.button{
+  width: 90%;
+  margin: auto;
+  color: white;
+  background: linear-gradient(to right, #13c393, #25e595);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30rpx;
+  border-radius: 25rpx;
+}
+/* 导航栏 */
+.bar{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.bar>view{
+  margin-top: 100rpx;
+}
+.bar>view>view>image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 160rpx;
+}
+.bar>view>view{
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
