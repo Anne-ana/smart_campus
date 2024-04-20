@@ -22,7 +22,7 @@
   <view>
     <view class="red"><image src="../../imgs/messageimgs/1.png"></image></view>
       <view class="yuanzi1">
-        <view>待办</view>
+        <view>待完成</view>
     </view>
   </view>
   <!-- 第二 -->
@@ -92,5 +92,4 @@
       </view>
         <view class="three">昨天</view>
     </view>  
-
   </view>
