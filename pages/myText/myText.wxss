@@ -71,13 +71,13 @@
   background-color: #8f6aff;
 }
 .barlist .reed{
-  background-color:#ec1e71 ;
+  background-color:#f32275 ;
 }
 .barlist .gre{
-  background-color: #03e391;
+  background-color: #0adf91;
 } 
 .barlist .blu{
-  background-color: #1e9dff;
+  background-color: #319bec;
 }
 
 .tinglist{
@@ -118,7 +118,7 @@
   line-height: 35rpx; 
 }
 .tinglist>view .text>view:first-child{
-  font-size: 36rpx;
+  font-size: 40rpx;
   margin-bottom: 20rpx;
 }
 .tinglist>view .foning{
@@ -130,7 +130,7 @@
   line-height: 35rpx; 
 }
 .tinglist>view .foning>view:first-child{
-  font-size: 36rpx;
+  font-size: 40rpx;
   margin-bottom: 20rpx;
 }
 
@@ -156,7 +156,7 @@
 
 }
 .runtime>view:last-child{
-  font-size: 28rpx;
+  font-size: 30rpx;
   line-height: 50rpx; 
   /* 行高 */
 }
@@ -184,7 +184,7 @@
   height: 300rpx;
 }
 .thingfeel>view:first-child>view:nth-child(2){
-  font-size: 28rpx;
+  font-size: 30rpx;
   color: #9e9e9e;
   line-height: 40rpx;
   margin-top: 20rpx;
@@ -192,7 +192,7 @@
 }
 .thingfeel>view:first-child>view:last-child{
   width: 140rpx;
-  font-size: 28rpx;
+  font-size: 30rpx;
   height: 50rpx;
   background: linear-gradient(to right, #3fbef5,#87e0dd);
   color: #f3f3f3;
@@ -211,11 +211,11 @@
   color: rgb(16, 16, 16);
   font-size: 36rpx;
   line-height: 80rpx;
-  font-weight: 555;
+  font-weight: 550;
 }
 .app>view:last-child{
   color: rgb(121, 121, 121);
-  font-size: 24rpx;
+  font-size: 25rpx;
 }
 .study{
   width: 90%;
@@ -269,7 +269,7 @@
   border-radius: 50rpx;
   margin: auto;
   color: rgb(133, 127, 127);
-  font-size: 18rpx;
+  font-size: 20rpx;
   text-align: left;
   line-height: 30rpx;
 }
