@@ -172,5 +172,31 @@
   </view>
 </view>
 <!-- 电子教务 -->
-
+<view class="zui">电子教务</view>
+<!-- 小程序 -->
+<view class="barlist">
+  <view>
+    <view >
+      <image src="/imgs/appimgs/libray.png" mode="img"></image>
+    </view>
+    <!-- <view>图书借阅</view> -->
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/appimgs/jiangbei.png"></image>
+    </view>
+  <!-- <view>获奖成果</view> -->
+  </view>
+  <view>
+    <view>
+      <image src="/imgs/appimgs/red.png"></image>
+    </view>
+    <!-- <view>我的党建</view> -->
+  </view>
+  <view>
+    <view>
+      <image src="/imgs/appimgs/shenpi.png"></image>
+    </view>
+    <!-- <view>网上审批</view> -->
+  </view>
 </view>
