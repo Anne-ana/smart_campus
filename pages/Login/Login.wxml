@@ -1,0 +1,42 @@
+<!--pages/Login/Login.wxml-->
+<page-meta>
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+</page-meta>
+<scroll-view class="scroll-y" scroll-y="true" type="list">
+<!-- 顶部 -->
+<view class="top">
+  <view>
+    <image src="../../imgs/appimgs/关闭.png" bind:tap="navigateToMyPage" />
+  </view>
+  <view>验证码登录</view>
+</view>
+<view class="title">账号密码登录</view>
+<!-- 登录界面 -->
+<view class="log">
+  <view>请输入登录账号</view>
+  <view>请输入密码</view>
+  <view>登录遇到问题？</view>
+</view>
+<view class="button">登录</view>
+<!-- 导航栏 -->
+<view class="bar">
+  <view>
+    <view>
+      <image src="../../imgs/appimgs/24刷脸登录.png" bind:tap="navigateToBrushPage" />
+    </view>
+    <view>刷脸登录</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/appimgs/一键登录.png" bind:tap="navigateToClickPage"/>
+    </view>
+    <view>一键登录</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/appimgs/微信登录.png" />
+    </view>
+    <view>微信登录</view>
+  </view>
+</view>
+</scroll-view>
