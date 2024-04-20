@@ -20,16 +20,16 @@
   top:40rpx;
   left:70rpx;
   text-align: left;
-  height: 100%;
-  font-size: 20rpx;
-  color:white;
+  height: 80%;
+  font-size: 25rpx;
+  color:rgb(240, 238, 238);
 }
 .toping .fonting>h2{
-  font-size: 32rpx;
-  font-weight: 900;
+  font-size: 30rpx;
+  font-weight: 1000;
 }
 .toping .fonting>text{
-  font-size: 26rpx;
+  font-size: 30rpx;
   line-height: 45rpx;
 }
 .toping .buton{
