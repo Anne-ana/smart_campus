@@ -78,7 +78,7 @@ left: 80rpx;
 
   .top {
     width: 334px;
-    height: 85px;
+    height: 80px;
     overflow: hidden;
     color: white;
     display: flex;
@@ -87,7 +87,7 @@ left: 80rpx;
   .top view {
     display: flex;
     width: 145px;
-    height: 85px;
+    height: 80px;
   }
   .top .top0v{
     margin-left: 10px;
@@ -96,8 +96,8 @@ left: 80rpx;
     margin-left: 20px;
   }
   .top view view image {
-    width: 162px;
-    height: 85px;
+    width: 160px;
+    height: 80px;
   }
   .top view .top1v image {
     margin-left: -140px;
