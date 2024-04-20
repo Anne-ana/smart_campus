@@ -1,0 +1,107 @@
+/* pages/click/click.wxss */
+.scroll-y{
+  height: 88vh;
+}
+.box{
+  height: 650rpx;
+}
+.box>image:nth-child(1){
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 40rpx;
+}
+.box>image:nth-child(2){
+  width: 80rpx;
+  height: 80rpx;
+  display: flex;
+  margin-left: 350rpx;
+  margin-top: 100rpx;
+}
+.box>view:nth-child(3){
+  font-size: 50rpx;
+  font-weight: 600;
+  margin-left: 240rpx;
+  margin-top: 10rpx;
+}
+.box>view:nth-child(4){
+  font-size: 25rpx;
+  color:gray;
+  margin-left: 270rpx;
+  margin-top: 10rpx;
+}
+.box>view:nth-child(5){
+  width: 600rpx;
+  height: 70rpx;
+  text-align: center;
+  margin-left: 80rpx;
+  margin-top: 50rpx;
+  padding-top: 12rpx;
+  color:white;
+  background-color: #2596f0;
+  border-radius: 25rpx;
+}
+.box>view:nth-child(6){
+  font-size: 30rpx;
+  font-weight: 600;
+  color:#2596f0;
+  margin-left: 320rpx;
+  margin-top: 40rpx;
+}
+
+/* 服务条款 */
+.box1{
+  margin-top: 400rpx;
+  width: 700rpx;
+}
+.box1>view:nth-child(1){
+  margin-bottom: 15rpx;
+}
+.box1>view:nth-child(1){
+  font-size: 30rpx;
+  color: gray;
+  margin-left: 255rpx;
+}
+.box1>image{
+  width: 25rpx;
+  height: 25rpx;
+  margin-left: 40rpx;
+}
+.box1>text:nth-child(3),
+.box1>text:nth-child(4),
+.box1>text:nth-child(5),
+.box1>text:nth-child(6),
+.box1>view:nth-child(7){
+  font-size: 25rpx;
+  font-weight: 600;
+}
+.box1>text:nth-child(3),
+.box1>text:nth-child(5),
+.box1 .text>view:nth-child(2){
+  color:gray;
+}
+.box1>text:nth-child(4),
+.box1>text:nth-child(6),
+.box1>view{
+  color:#2596f0;
+}
+.box1>text:nth-child(3){
+  margin-left: 10rpx;
+}
+.box1>text:nth-child(4){
+  margin-left: 10rpx;
+}
+.box1>text:nth-child(5){
+  margin-left: 5rpx;
+}
+.box1>text:nth-child(6){
+  margin-left: 5rpx;
+}
+.box1 .text>view:nth-child(1){
+  margin-left: 70rpx;
+  width: 350rpx;
+}
+.text>view:nth-child(2){
+  width: 250rpx;
+  margin-left: 410rpx;
+  margin-top: -35rpx;
+}

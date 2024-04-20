@@ -7,7 +7,7 @@
 }
 .kuang{
   display: flex;
-  width: 1000rpx;
+  width: 800rpx;
   position: relative;
 }
 .kuang>view:first-child{
@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 .text{
-  color: rgb(155, 155, 155);
+  color: darkgrey;
 }
 .kk{
   width: 400rpx;
@@ -24,7 +24,7 @@
   line-height: 40rpx;
   margin-top: 20rpx;
   font-size: 20rpx;
- border: 1rpx solid #f8f4f4;
+ border: 1rpx solid #f5f5f5;
   text-align: center;
   border-radius: 15rpx;
   background-color: #ffffff;
@@ -78,7 +78,7 @@ left: 80rpx;
 
  /*圆  */
  .yuan{
-  width: 100%;
+  width: 90%;
   margin: auto;
   height: 200rpx;
   /* background-color:purple; */
@@ -88,7 +88,7 @@ left: 80rpx;
 
 }
 .yuan>view{
-  width: 30%;
+  width: 25%;
 margin-top: 70rpx;
 /* background-color: blue; */
 height: 350rpx;
@@ -129,6 +129,10 @@ height: 350rpx;
   width: 50rpx;
   height: 50rpx;
   position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   margin: auto;
 }
 .yuan>view>view:last-child>image{
@@ -180,7 +184,6 @@ font-size: 30rpx;
 font-size: 21rpx;
 color:gray;
 }
-
 
 .three{
   color: gray;

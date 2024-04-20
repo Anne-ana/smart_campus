@@ -1,6 +1,5 @@
 {
   "pages": [
-    
     "pages/myText/myText",
     "pages/index/index",
     "pages/logs/logs",
@@ -8,7 +7,11 @@
     "pages/myapps/myapps",
     "pages/my/my",
     "pages/mess/mess",
-    "pages/text/text"
+    "pages/text/text",
+    "pages/set/set",
+    "pages/Login/Login",
+    "pages/brush/brush",
+    "pages/click/click"
   ],
   "window": {
     "navigationBarTextStyle": "black",

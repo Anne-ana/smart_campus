@@ -337,7 +337,7 @@
   text-align: left;
 }
 .notice1>view:first-child>view:nth-child(3)>view:first-child{
-  font-size: 30rpx;
+  font-size: 28rpx;
 }
 .notice1>view:first-child>view:first-child>view:last-child{
   margin-top: 8rpx;

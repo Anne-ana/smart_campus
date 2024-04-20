@@ -1,0 +1,24 @@
+<!--pages/click/click.wxml-->
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scroll-y" scroll-y="true" type="list">
+<view class="box">
+  <image src="../../images/appimgs/向左箭头.png" />
+  <image src="../../images/myimgs/avater.png" />
+  <view>182****7949</view>
+  <view>中国移动提供认证服务</view>
+  <view class="button">登录</view>
+  <view>切换账号</view>
+</view>
+<view class="box1">
+  <view>通过其他方式登录</view>
+  <image src="../../images/复选框 选中.png" />
+  <text>登录即代表同意</text>
+  <text>中国移动认证服务条款</text>
+  <text>和</text>
+  <text>应用自定义服务</text>
+  <view class="text">
+    <view>条款一、应用自定义服务条款二</view>
+    <view>并使用本机号码登录.</view>
+  </view>
+</view>
+</scroll-view>
