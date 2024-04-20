@@ -284,8 +284,8 @@
   margin: auto;
 }
 .study>view>view:last-child>image{
-  width: 40rpx;
-  height: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
 }
 .study>view:nth-child(2)>view:first-child{
   background: linear-gradient(142.96deg, rgba(252,195,49,1) 7.26%,rgba(255,138,14,1) 87.5%);
@@ -303,11 +303,11 @@
   bottom: 30rpx;
   width: 580rpx;
   height: 240rpx;
-  font-size: 28rpx;
+  font-size: 30rpx;
   font-weight: 500;
 }
 .notice>view:first-child{
-  font-size: 36rpx;
+  font-size: 40rpx;
   font-weight: 700;
   text-decoration: underline;
   text-decoration-color: #b3f2c7;
@@ -326,18 +326,18 @@
 .notice1>view:first-child>view{
   width: 100%;
   height: 30%;
-  margin-bottom: 22rpx;
+  margin-bottom: 20rpx;
 }
 .notice1>view:first-child>view:first-child>view:first-child{
-  font-size: 28rpx;
+  font-size: 30rpx;
   text-align: left;
 }
 .notice1>view:first-child>view:nth-child(2)>view:first-child{
-  font-size: 28rpx;
+  font-size: 30rpx;
   text-align: left;
 }
 .notice1>view:first-child>view:nth-child(3)>view:first-child{
-  font-size: 28rpx;
+  font-size: 30rpx;
 }
 .notice1>view:first-child>view:first-child>view:last-child{
   margin-top: 8rpx;
