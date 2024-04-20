@@ -1,7 +1,7 @@
 /* pages/mess/mess.wxss */
 .ying{
   width: 90%;
-  height: 100rpx;
+  height: 120rpx;
   display: flex;
   margin: auto;
 }
@@ -24,7 +24,7 @@
   line-height: 40rpx;
   margin-top: 20rpx;
   font-size: 20rpx;
- border: 1rpx solid #f5f5f5;
+ border: 1rpx solid #f8f4f4;
   text-align: center;
   border-radius: 15rpx;
   background-color: #ffffff;
