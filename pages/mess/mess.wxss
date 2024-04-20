@@ -1,13 +1,13 @@
 /* pages/mess/mess.wxss */
 .ying{
   width: 90%;
-  height: 120rpx;
+  height: 100rpx;
   display: flex;
   margin: auto;
 }
 .kuang{
   display: flex;
-  width: 800rpx;
+  width: 1000rpx;
   position: relative;
 }
 .kuang>view:first-child{
@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 .text{
-  color: darkgrey;
+  color: rgb(155, 155, 155);
 }
 .kk{
   width: 400rpx;
