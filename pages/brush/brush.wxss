@@ -1,6 +1,6 @@
 /* pages/brush/brush.wxss */
 .scroll-y{
-  height: 88vh;
+  height: 100vh;
 }
 /* 头部 */
 .box{
