@@ -1,10 +1,10 @@
 /* pages/text/text.wxss */
 .page-section-spacing{
-  margin-top: 60rpx;
+  margin-top: 50rpx;
 }
 .scroll-view_H{
   white-space: nowrap;
-  background-color: aqua;
+  background-color: rgb(7, 165, 165);
 }
 .scroll-view-item{
   height: 300rpx;
