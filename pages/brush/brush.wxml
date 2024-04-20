@@ -1,2 +1,37 @@
 <!--pages/brush/brush.wxml-->
-<text>pages/brush/brush.wxml</text>
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scroll-y" scroll-y="true" type="list">
+<!-- 头部 -->
+<view class="box">
+  <image src="../../images/appimgs/向左箭头.png" />
+  <image src="../../images/myimgs/avater.png" />
+  <view>宋歌你好</view>
+  <view>欢迎登录智慧门户系统，请进行人脸验证</view>
+</view>
+<!-- 人脸识别 -->
+<view class="box1">
+  <image src="../../images/请人脸识别登录.png" />
+  <view>点击进行人脸识别</view>
+</view>
+<!-- 导航栏 -->
+<view class="bar">
+  <view>
+    <view>
+      <image src="../../images/appimgs/24刷脸登录.png" bind:tap="navigateToLoginPage" />
+    </view>
+    <view>刷脸登录</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../images/appimgs/一键登录.png" />
+    </view>
+    <view>一键登录</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../images/appimgs/微信登录.png" />
+    </view>
+    <view>微信登录</view>
+  </view>
+</view>
+</scroll-view>
