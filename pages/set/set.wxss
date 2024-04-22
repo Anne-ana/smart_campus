@@ -1,1 +1,73 @@
 /* pages/set/set.wxss */
+.scroll-y{
+  height: 88vh;
+}
+/* 顶部 */
+.top{
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.top>view>image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.top>view:last-child{
+  margin-left: 250rpx;
+  font-size: 40rpx;
+  line-height: 40rpx;
+}
+/* 列表 */
+.list{
+  width: 90%;
+  margin:auto;
+  margin-top: 130rpx;
+}
+.list>view{
+  margin-top: 40rpx;
+  font-size: 30rpx;
+  display: flex;
+}
+.list>view>view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list>view>view>image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.list>view>view:last-child{
+  margin-left: 50rpx;
+  line-height: 40rpx;
+  font-weight: 600;
+}
+/* 退出 */
+.quit{
+  width: 90%;
+  margin: auto;
+  margin-top: 300rpx;
+  display: flex;
+}
+.quit>view:first-child{
+  display: flex;
+  align-items: center;
+}
+.quit>view:last-child{
+  font-size: 35rpx;
+  color:#0082ff;
+  font-weight: 600;
+  margin-left: 50rpx;
+}
+.quit>view>image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.top>view>image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.list>view>view>image{
+  width: 40rpx;
+  height: 40rpx;
+}

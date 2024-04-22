@@ -72,5 +72,10 @@ Page({
     wx.navigateTo({
       url: '/pages/Login/Login',
     })
+  },
+  navigateTosetPage(){
+    wx.redirectTo({
+      url:'/pages/set/set'
+    })
   }
 })

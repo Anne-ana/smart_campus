@@ -1,2 +1,51 @@
 <!--pages/set/set.wxml-->
-<text>pages/set/set.wxml</text>
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scroll-y" scroll-y="true" type="list">
+<!-- 顶部 -->
+<view class="top" bind:tap="navigateToMyPage">
+  <view>
+    <image src="../../imgs/left.png" />
+  </view>
+  <view>设置</view>
+</view>
+<!-- 列表 -->
+<view class="list">
+  <view>
+    <view>
+      <image src="../../imgs/通知.png" />
+    </view>
+    <view>新消息通知</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/版本更新.png" />
+    </view>
+    <view>版本更新</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/清除缓存.png" />
+    </view>
+    <view>清除缓存</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/修改密码.png" />
+    </view>
+    <view>修改密码</view>
+  </view>
+  <view>
+    <view>
+      <image src="../../imgs/关于我们.png" />
+    </view>
+    <view>关于我们</view>
+  </view>
+</view>
+<!-- 退出登录 -->
+<view class="quit" bindtap="navigateToMyPage">
+  <view>
+    <image src="../../imgs/退出登录.png" />
+  </view>
+  <view>退出登录</view>
+</view>
+</scroll-view>

@@ -5,7 +5,7 @@
 <view class="topt">
   <view class="topt1v">
     <view>
-      <image src="../../imgs/myimgs/set.png"/>
+      <image src="../../imgs/myimgs/set.png" bind:tap="navigateTosetPage"/>
     </view>
     <view class="my">
       我的

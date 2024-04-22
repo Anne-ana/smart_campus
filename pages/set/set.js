@@ -1,4 +1,5 @@
 // pages/set/set.js
+// pages/set/set.js
 Page({
 
   /**
@@ -62,5 +63,10 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  navigateToMyPage: function(){
+    wx.navigateBack({
+      delta:1
+    })
   }
 })
